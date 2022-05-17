@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/out/production/IPLDashboard" />
+    <output-test url="file://$MODULE_DIR$/out/test/IPLDashboard" />
+    <exclude-output />
+    <content url="file:///Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/conf/management" />
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="lib">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../.." />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

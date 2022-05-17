@@ -1,28 +1,28 @@
 package io.javaCode.IPLDashboard.Model;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Match
 {
     private long Id;
     private String city;
-    private LocalDate date;
+    private LocalDateTime date;
     private String playerOfMatch;
     private String venue;
-    private String neutral_venue;
     private String team1;
     private String team2;
-    private String toss_winner;
-    private String toss_decision;
-    private String winner;
+    private String tossWinner;
+    private String tossDecision;
+    private String matchWinner;
     private String result;
-    private String result_margin;
-    private String eliminator;
-    private String method;
+    private String resultMargin;
     private String umpire1;
     private String umpire2;
 
-    public long getId() {
+
+    public long getId()
+    {
         return Id;
     }
 
@@ -38,11 +38,11 @@ public class Match
         this.city = city;
     }
 
-    public LocalDate getDate() {
+    public LocalDateTime getDate() {
         return date;
     }
 
-    public void setDate(LocalDate date) {
+    public void setDate(LocalDateTime date) {
         this.date = date;
     }
 
@@ -62,14 +62,6 @@ public class Match
         this.venue = venue;
     }
 
-    public String getNeutral_venue() {
-        return neutral_venue;
-    }
-
-    public void setNeutral_venue(String neutral_venue) {
-        this.neutral_venue = neutral_venue;
-    }
-
     public String getTeam1() {
         return team1;
     }
@@ -86,28 +78,28 @@ public class Match
         this.team2 = team2;
     }
 
-    public String getToss_winner() {
-        return toss_winner;
+    public String getTossWinner() {
+        return tossWinner;
     }
 
-    public void setToss_winner(String toss_winner) {
-        this.toss_winner = toss_winner;
+    public void setTossWinner(String tossWinner) {
+        this.tossWinner = tossWinner;
     }
 
-    public String getToss_decision() {
-        return toss_decision;
+    public String getTossDecision() {
+        return tossDecision;
     }
 
-    public void setToss_decision(String toss_decision) {
-        this.toss_decision = toss_decision;
+    public void setTossDecision(String tossDecision) {
+        this.tossDecision = tossDecision;
     }
 
-    public String getWinner() {
-        return winner;
+    public String getMatchWinner() {
+        return matchWinner;
     }
 
-    public void setWinner(String winner) {
-        this.winner = winner;
+    public void setMatchWinner(String matchWinner) {
+        this.matchWinner = matchWinner;
     }
 
     public String getResult() {
@@ -118,28 +110,12 @@ public class Match
         this.result = result;
     }
 
-    public String getResult_margin() {
-        return result_margin;
+    public String getResultMargin() {
+        return resultMargin;
     }
 
-    public void setResult_margin(String result_margin) {
-        this.result_margin = result_margin;
-    }
-
-    public String getEliminator() {
-        return eliminator;
-    }
-
-    public void setEliminator(String eliminator) {
-        this.eliminator = eliminator;
-    }
-
-    public String getMethod() {
-        return method;
-    }
-
-    public void setMethod(String method) {
-        this.method = method;
+    public void setResultMargin(String resultMargin) {
+        this.resultMargin = resultMargin;
     }
 
     public String getUmpire1() {
